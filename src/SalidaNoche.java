@@ -35,8 +35,15 @@ public class SalidaNoche {
             System.out.println("El cliente puede entrar");
         } else {
             System.out.println("El cliente no está en condiciones de entrar");
-
         }
+        //
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introduzca lo que quiere beber");
+        int sumaAlcohol = nivelAlcohol + nivelChupito + nivelCaña + nivelCombinado;
+        System.out.println("Se incrementa el alcohol en " + sumaAlcohol);
+        //
+        int restaDinero = precioChupito - precioCaña - precioCombinado;
+        System.out.println("El resultado de la resta es: " + resultadoResta);
         }
 
     }
